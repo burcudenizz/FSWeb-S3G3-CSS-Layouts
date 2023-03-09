@@ -101,3 +101,34 @@ img.item:hover {
     rgba(216, 215, 216, 0.2) 15px 15px, rgba(207, 133, 106, 0.1) 20px 20px,
     rgba(197, 122, 99, 0.05) 25px 25px;
 }
+
+@media (max-width: 800px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .proje-kismi {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  }
+  .son-kisim {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+  }
+}
